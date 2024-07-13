@@ -86,7 +86,7 @@ $c = $footer->fetch(PDO::FETCH_ASSOC);
 <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Additional Scripts -->
-<script src="../assets/js/custom2.js"></script>
+<script src="../assets/js/custom.js"></script>
 <script src="../assets/js/owl.js"></script>
 <script src="../assets/js/slick.js"></script>
 <script src="../assets/js/accordions.js"></script>

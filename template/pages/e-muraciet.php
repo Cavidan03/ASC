@@ -19,11 +19,11 @@ $x = $sql->fetch(PDO::FETCH_ASSOC);
 
   <!-- Header -->
 
-<?php
-$sql3 = $db->prepare("SELECT * FROM `esas_sehife`");
-$sql3->execute();
-$e = $sql3->fetch(PDO::FETCH_ASSOC);
-?>
+  <?php
+  $sql3 = $db->prepare("SELECT * FROM `esas_sehife`");
+  $sql3->execute();
+  $e = $sql3->fetch(PDO::FETCH_ASSOC);
+  ?>
   <header class="background_header">
     <nav class="navbar navbar-expand-lg">
       <div class="container">
@@ -125,6 +125,79 @@ $e = $sql3->fetch(PDO::FETCH_ASSOC);
             <h4>Ünvan</h4>
             <p>Bakı şəhəri, Xətai rayonu<br>Nobel Prospekti 175.</p>
             <a href="<?= $x['asm_ünvan'] ?>" target="_blank">Google Map ilə bax</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Digər <em>Filiallarımız</em></h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="owl-testimonials owl-carousel">
+
+            <div class="testimonial-item">
+              <div class="inner-content">
+                <h4>Baş Ofis</h4>
+                <span>Bakı şəhəri, Xətai rayonu
+                  Nobel Prospekti 175</span>
+                <p>Tel: 1651</p>
+              </div>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="inner-content">
+                <h4>Şəmkir Filialı</h4>
+                <span> Şəmkir rayonu Səməd Vurğun küçəsi 202B</span>
+                <p>Tel: 010-230-37-17</p>
+              </div>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="inner-content">
+                <h4>Göyçay filialı</h4>
+                <span>Natavan küçəsi 84 </span>
+                <p>Tel: 051-270-98-02</p>
+              </div>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="inner-content">
+                <h4>Cəlilabad Filialı</h4>
+                <span>Cəlilabad şəhəri Qurtuluş küçəsi 114 A</span>
+                <p>Tel: 051-244-56-77</p>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="inner-content">
+                <h4>Şəki-Zaqatala İqtisadi rayon filialı</h4>
+                <span> Şəki şəhər İstiqlaliyyət prospekti N149</span>
+                <p>Tel: 051-244-56-50</p>
+              </div>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="inner-content">
+                <h4>Quba-Xaçmaz filialı</h4>
+                <span>Heydər Əliyev prospekti 282A</span>
+                <p>Tel:010-300-36-48</p>
+              </div>
+            </div>
+            
+            <div class="testimonial-item">
+              <div class="inner-content">
+                <h4>Goranboy filialı</h4>
+                <span>GORANBOY RAYONU, Heydər Əliyev prospekti -19</span>
+                <p>Tel:010-228-13-00</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

@@ -37,9 +37,9 @@ jQuery(document).ready(function ($) {
             dots: true,
             items: 1,
             margin: 30,
-            autoplay: false,
+            autoplay: true,
             smartSpeed: 700,
-            autoplayTimeout: 6000,
+            autoplayTimeout: 4000,
             responsive: {
                 0: {
                     items: 1,
