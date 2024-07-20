@@ -1,1 +1,1 @@
-[Demo version](agro-insurance.az)
+[Proyektə Bax](https://agro-insurance.az/)
